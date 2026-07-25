@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
-  },
+  "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+  "start": "ts-node src/server.ts"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,7 +20,8 @@
     "multer": "^2.2.0",
     "pdf-parse": "^2.4.5",
     "pg": "^8.22.0",
-    "tesseract.js": "^7.0.0"
+    "tesseract.js": "^7.0.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
