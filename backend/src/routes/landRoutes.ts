@@ -85,7 +85,7 @@ router.post("/add", authenticateToken, async (req, res) => {
         district,
         area,
         land_type,
-        req.user?.id || null,
+        (req as any).user?.id || null,,
       ]
     );
 
