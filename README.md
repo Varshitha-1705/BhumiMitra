@@ -5,7 +5,14 @@
 BhumiMitra is a digital platform designed to simplify access to Karnataka land records and related services. It provides users with a centralized interface to explore land records, track mutation status, view survey information, upload and analyze land documents, and interact with AI-powered assistants through text and voice.
 
 ---
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+</p>
 
+---
 ## Table of Contents
 
 * [Problem Statement](#problem-statement)
