@@ -14,7 +14,7 @@ import voiceRoutes from "./routes/voiceRoutes";
 
 const app = express();
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // ==========================================
 // MIDDLEWARE
@@ -94,8 +94,6 @@ app.get(
 app.listen(
   PORT,
   () => {
-    console.log(
-      `🚀 BhumiMitra Backend running at http://localhost:${PORT}`
-    );
+    console.log(`🚀 BhumiMitra Backend running on port ${PORT}`);
   }
 );
