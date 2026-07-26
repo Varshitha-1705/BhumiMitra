@@ -123,7 +123,7 @@ function Register() {
 
       const response =
         await fetch(
-          "http://localhost:5000/api/auth/register",
+          "https://bhumimitra-backend.onrender.com/api/auth/register",
           {
             method: "POST",
 

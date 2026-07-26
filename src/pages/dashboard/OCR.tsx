@@ -147,7 +147,7 @@ function OCR() {
 
         const response =
           await fetch(
-            "http://localhost:5000/api/ocr/upload",
+            "https://bhumimitra-backend.onrender.com/api/ocr/upload",
             {
               method: "POST",
               body: formData,

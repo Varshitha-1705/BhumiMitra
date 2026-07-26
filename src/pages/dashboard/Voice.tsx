@@ -463,7 +463,7 @@ function VoiceAssistant() {
 
           const response =
             await fetch(
-              "http://localhost:5000/api/voice/ask",
+              "https://bhumimitra-backend.onrender.com/api/voice/ask",
               {
                 method: "POST",
 

@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/land";
+const API_URL = "https://bhumimitra-backend.onrender.com/api/land";
 
 // ==========================================
 // GET JWT TOKEN

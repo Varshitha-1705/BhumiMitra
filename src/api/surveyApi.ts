@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/survey";
+const API_URL = "https://bhumimitra-backend.onrender.com/api/survey";
 
 // ==========================================
 // GET ALL SURVEY RECORDS

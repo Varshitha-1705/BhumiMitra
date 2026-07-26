@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/mutation";
+const API_URL = "https://bhumimitra-backend.onrender.com/api/mutation";
 
 export const getMutationRecord = async (
   applicationNo: string

@@ -642,13 +642,13 @@ npm run dev
 The backend should run at:
 
 ```text
-http://localhost:5000
+https://bhumimitra-backend.onrender.com
 ```
 
 Test the backend:
 
 ```text
-http://localhost:5000/api/health
+https://bhumimitra-backend.onrender.com/api/health
 ```
 
 ---
@@ -672,7 +672,7 @@ npm install
 Create a `.env` file:
 
 ```env
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=https://bhumimitra-backend.onrender.com
 ```
 
 Start the frontend:
@@ -716,7 +716,7 @@ http://localhost:5173
 
 | Variable       | Default                 | Description          |
 | -------------- | ----------------------- | -------------------- |
-| `VITE_API_URL` | `http://localhost:5000` | Backend API base URL |
+| `VITE_API_URL` | `https://bhumimitra-backend.onrender.com` | Backend API base URL |
 
 ---
 
