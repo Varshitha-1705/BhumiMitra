@@ -42,7 +42,7 @@ export const authenticateToken = (
     ) as JwtPayload;
 
     // Store user information in request
-    req.user = decoded;
+    (req as any).user = decoded;
 
     // Token is valid
     next();
